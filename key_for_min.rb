@@ -3,10 +3,8 @@
 
 def key_for_min_value(name_hash)
   low_value = nil
-  hash_value = Float::INFINITY
   hash_value = nil
   name_hash.collect do |element, value|
-    if value < hash_value
     if hash_value == nil || value < hash_value
       hash_value = value
       element = low_value
