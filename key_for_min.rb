@@ -11,15 +11,3 @@ def key_for_min_value(name_hash)
   end
  low_value
 end
-
-# birthday_kids = {
-#   "Timmy" => 9, 
-#   "Sarah" => 6, 
-#   "Amanda" => 27
-# }
-
-def happy_birthday(birthday_kids)
-  birthday_kids.each do |kids_name, age|
-    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-  end
-end
